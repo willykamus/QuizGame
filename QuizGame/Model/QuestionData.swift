@@ -17,7 +17,7 @@ class QuestionData {
         
         //Create a question
         //The text
-        var str = "Who is the greatest tennis player in history?"
+        var str = "Who is the greatest male tennis player in history?"
         //Create the answers
         //Create an array of answers
         var answerList = [Answer]()
