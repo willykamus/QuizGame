@@ -12,6 +12,9 @@
 		1C695FF92253AEFE003CE188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C695FF72253AEFE003CE188 /* Main.storyboard */; };
 		1C695FFB2253AEFF003CE188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C695FFA2253AEFF003CE188 /* Assets.xcassets */; };
 		1C695FFE2253AEFF003CE188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C695FFC2253AEFF003CE188 /* LaunchScreen.storyboard */; };
+		1C6960092253BBF9003CE188 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6960082253BBF9003CE188 /* Question.swift */; };
+		1C69600B2253BC9F003CE188 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69600A2253BC9F003CE188 /* Answer.swift */; };
+		1C69600D2253BDB1003CE188 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69600C2253BDB1003CE188 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1C695FFA2253AEFF003CE188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C695FFD2253AEFF003CE188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C695FFF2253AEFF003CE188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6960082253BBF9003CE188 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1C69600A2253BC9F003CE188 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		1C69600C2253BDB1003CE188 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,9 @@
 		1C6960062253B032003CE188 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1C6960082253BBF9003CE188 /* Question.swift */,
+				1C69600A2253BC9F003CE188 /* Answer.swift */,
+				1C69600C2253BDB1003CE188 /* QuestionData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,8 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6960092253BBF9003CE188 /* Question.swift in Sources */,
 				1C695FF62253AEFE003CE188 /* ViewController.swift in Sources */,
+				1C69600D2253BDB1003CE188 /* QuestionData.swift in Sources */,
 				1C695FF42253AEFE003CE188 /* AppDelegate.swift in Sources */,
+				1C69600B2253BC9F003CE188 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
