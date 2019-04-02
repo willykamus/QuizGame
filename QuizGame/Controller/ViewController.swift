@@ -47,21 +47,30 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action) in
-            alert.dismiss(animated: true, completion: nil)
-        }))
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         
         self.present(alert,animated: true,completion: nil)
     }
     
     func setPossibleAnswers(){
         
+        var optionsNums:[Int] = []
+        
         for i in 0..<currentQuestion.possibleAnswers.count {
             
-            var possibleAnswer = currentQuestion.possibleAnswers[i].text
-            userOptions[i].titleLabel?.numberOfLines = 2
-            userOptions[i].setTitle(possibleAnswer, for: .normal)
-            userOptions[i].sizeToFit()
+            //Generate a random number from 0 to 3
+            var num = Int.random(in: 0...3)
+            
+            while optionsNums.contains(num) {
+                
+                num = Int.random(in: 0...userOptions.count-1)
+                
+            }
+            
+            let possibleAnswer = currentQuestion.possibleAnswers[i].text
+            userOptions[num].setTitle(possibleAnswer, for: .normal)
+            
+            optionsNums.append(num)
             
         }
         

@@ -78,12 +78,12 @@
                                         <rect key="frame" x="30" y="30" width="315" height="142"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VKG-u0-bIW">
-                                                <rect key="frame" x="15" y="15" width="285" height="36"/>
+                                                <rect key="frame" x="15" y="15" width="285" height="32"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Tsd-hh-Koz">
-                                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="32"/>
                                                         <color key="backgroundColor" red="0.87377017736434937" green="0.88901203870773315" blue="0.95952898263931274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <state key="normal" title="Option 1">
                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -92,9 +92,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cbz-Dg-luC">
-                                                        <rect key="frame" x="152.5" y="0.0" width="132.5" height="36"/>
+                                                        <rect key="frame" x="152.5" y="0.0" width="132.5" height="32"/>
                                                         <color key="backgroundColor" red="0.87377017739999996" green="0.88901203870000001" blue="0.95952898259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <state key="normal" title="Option 3">
                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -105,12 +105,12 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="41g-JO-94R">
-                                                <rect key="frame" x="15" y="91" width="285" height="36"/>
+                                                <rect key="frame" x="15" y="95" width="285" height="32"/>
                                                 <subviews>
                                                     <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="maL-Me-vrO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="36"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="32"/>
                                                         <color key="backgroundColor" red="0.87377017739999996" green="0.88901203870000001" blue="0.95952898259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <state key="normal" title="Option 2">
                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
@@ -119,9 +119,9 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5eO-xp-KFp">
-                                                        <rect key="frame" x="152.5" y="0.0" width="132.5" height="36"/>
+                                                        <rect key="frame" x="152.5" y="0.0" width="132.5" height="32"/>
                                                         <color key="backgroundColor" red="0.87377017739999996" green="0.88901203870000001" blue="0.95952898259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <state key="normal" title="Option 4">
                                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
